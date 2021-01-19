@@ -10,6 +10,6 @@ $ node --max-old-space-size=9216 index -t chebi.owl -i principios-activos.json -
 Opciones:
 
 -template, -t: archivo que contiene la ontologia.
--input, -i: el archivo grel de openRefine con los sinonimos que se van a agregar a la ontologia.
+-input, -i: el archivo grel de openRefine con los conceptos que se van a agregar a la ontologia.
 -output, -o: el nombre del archivo de salida.
 -namespace, -n: namespace uri

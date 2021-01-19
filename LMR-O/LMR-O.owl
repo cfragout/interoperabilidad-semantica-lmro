@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.lifia.info.unlp.edu.ar/lmro#"
+     xml:base="http://www.lifia.info.unlp.edu.ar/lmro"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#"
+     xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#2"
+     xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:schema="http://schema.org/"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.lifia.info.unlp.edu.ar/lmro">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/agro/releases/2020-04-03/agro.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi/191/chebi.owl"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <schema:contributor>Alejandro Fernandez
+Diego Torres
+Carlos Pintor</schema:contributor>
+        <schema:creator>Carlos Francisco Ragout</schema:creator>
+        <schema:dateCreated>2020-12-13</schema:dateCreated>
+        <schema:description xml:lang="es">LMR-O es una ontología que busca modelar el dominion de la publicación de los límites máximos de residuos (o LMR) de fitosanitarios en alimentos.</schema:description>
+        <schema:name>LMR-O</schema:name>
+        <schema:schemaVersion>1.0.0</schema:schemaVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/contributor"/>
+    
+
+
+    <!-- http://schema.org/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/creator"/>
+    
+
+
+    <!-- http://schema.org/dateCreated -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/dateCreated"/>
+    
+
+
+    <!-- http://schema.org/description -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/description"/>
+    
+
+
+    <!-- http://schema.org/license -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/license"/>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/name"/>
+    
+
+
+    <!-- http://schema.org/sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/sameAs"/>
+    
+
+
+    <!-- http://schema.org/schemaVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/schemaVersion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#activePrinciple -->
+
+    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#activePrinciple">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:comment xml:lang="es">Principio activo</rdfs:comment>
+        <rdfs:label>activePrinciple</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#appliesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#appliesTo">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
+        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Any"/>
+        <rdfs:comment xml:lang="es">Cultivo al que aplica el resgistro</rdfs:comment>
+        <rdfs:label>appliesTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#hasUnit">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+        <rdfs:comment xml:lang="es">Unidad en que se mide el LMR</rdfs:comment>
+        <rdfs:label>hasUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#maximumResidue -->
+
+    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#maximumResidue">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
+        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Exempt"/>
+        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
+        <rdfs:comment xml:lang="es">Residuo máximo para un fitosanitario</rdfs:comment>
+        <rdfs:label>maximumResidue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#role -->
+
+    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#role">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <rdfs:comment xml:lang="es">Rol que cumple un fitosanitario.</rdfs:comment>
+        <rdfs:label>role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#comments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#comments">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comentarios, información adicional</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comments</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#hasValue">
+        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Valor de un LMR</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Any -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Any">
+        <rdfs:comment xml:lang="es">Cualquier valor. Un LMR que aplica a cualquier valor aplica a cualquier cultivo del dataset.</rdfs:comment>
+        <rdfs:label>Any</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Crop -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Crop">
+        <schema:sameAs rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000325"/>
+        <rdfs:comment xml:lang="es">Un cultivo</rdfs:comment>
+        <rdfs:label>Crop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Exempt -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Exempt">
+        <rdfs:comment xml:lang="es">No sujeto a restricciones. Que un fitosanitario posea LMR exento significa que no hay una restriccion en cuanto a la cantidad que puede utilizarse de dicho sanitario</rdfs:comment>
+        <rdfs:label>Exempt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#LmrPublicationActivity -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#LmrPublicationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="es">Actividad de publicación la cual genera los registros de LMR</rdfs:comment>
+        <rdfs:label>LmrPublicationActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Record -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Record">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="es">Registro de LMR (límite máximo de residuo).</rdfs:comment>
+        <rdfs:label>Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue -->
+
+    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue">
+        <rdfs:comment xml:lang="es">El valor del LMR</rdfs:comment>
+        <rdfs:label>ResidueValue</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
