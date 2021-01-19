@@ -1,0 +1,3633 @@
+[
+    {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/chebi-rdf-ar-extended-and-augmented",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Principio activo to type null"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "1,3 diclopropeno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_18918",
+      "name": "1,3-dichloropropene",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.7368420958518982
+    },
+    "shareNewTopics": false,
+    "description": "Match item 1,3-dichloropropene (http://purl.obolibrary.org/obo/CHEBI_18918) for cells containing \"1,3 diclopropeno\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "1,4 diaminobutano",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_17148",
+      "name": "putrescine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item putrescine (http://purl.obolibrary.org/obo/CHEBI_17148) for cells containing \"1,4 diaminobutano\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "2,4 - db",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_73173",
+      "name": "2,4-DB",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 2,4-DB (http://purl.obolibrary.org/obo/CHEBI_73173) for cells containing \"2,4 - db\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "2,4-d",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_28854",
+      "name": "2,4-D",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 2,4-D (http://purl.obolibrary.org/obo/CHEBI_28854) for cells containing \"2,4-d\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acido fosforico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_26078",
+      "name": "phosphoric acid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item phosphoric acid (http://purl.obolibrary.org/obo/CHEBI_26078) for cells containing \"acido fosforico\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acirfluorfen sodico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/1",
+      "name": "acifluorfen-sodico",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item acifluorfen-sodico (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/1) for cells containing \"acirfluorfen sodico\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "benazolin etil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_132897",
+      "name": "benazolin-ethyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.800000011920929
+    },
+    "shareNewTopics": false,
+    "description": "Match item benazolin-ethyl (http://purl.obolibrary.org/obo/CHEBI_132897) for cells containing \"benazolin etil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "bentazon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_3018",
+      "name": "bentazone",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.8888888955116272
+    },
+    "shareNewTopics": false,
+    "description": "Match item bentazone (http://purl.obolibrary.org/obo/CHEBI_3018) for cells containing \"bentazon\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "carfentrazone etil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_3416",
+      "name": "carfentrazone-ethyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.8421052694320679
+    },
+    "shareNewTopics": false,
+    "description": "Match item carfentrazone-ethyl (http://purl.obolibrary.org/obo/CHEBI_3416) for cells containing \"carfentrazone etil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "cloromecuato",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81772",
+      "name": "cloromecuato",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cloromecuato (http://purl.obolibrary.org/obo/CHEBI_81772) for cells containing \"cloromecuato\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "caolin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_140499",
+      "name": "caolinita",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.6666666269302368
+    },
+    "shareNewTopics": false,
+    "description": "Match item caolinita (http://purl.obolibrary.org/obo/CHEBI_140499) for cells containing \"caolin\" in column Principio activo"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acetoclor",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_2394",
+      "name": "acetoclor",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item acetoclor (http://purl.obolibrary.org/obo/CHEBI_2394) for cells containing \"acetoclor\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "ametrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_22472",
+      "name": "ametrina",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ametrina (http://purl.obolibrary.org/obo/CHEBI_22472) for cells containing \"ametrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "amina grasa etoxilada",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/32",
+      "name": "amina grasa etoxilada",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item amina grasa etoxilada (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/32) for cells containing \"amina grasa etoxilada\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "clothianidin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_39178",
+      "name": "clothianidin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item clothianidin (http://purl.obolibrary.org/obo/CHEBI_39178) for cells containing \"clothianidin\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "difetialone",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81893",
+      "name": "difetialone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item difetialone (http://purl.obolibrary.org/obo/CHEBI_81893) for cells containing \"difetialone\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "esfenvalerato",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_39346",
+      "name": "esfenvalerato",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item esfenvalerato (http://purl.obolibrary.org/obo/CHEBI_39346) for cells containing \"esfenvalerato\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "triforine",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_9715",
+      "name": "triforine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item triforine (http://purl.obolibrary.org/obo/CHEBI_9715) for cells containing \"triforine\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tribromo fenol",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_47696",
+      "name": "tribromo fenol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item tribromo fenol (http://purl.obolibrary.org/obo/CHEBI_47696) for cells containing \"tribromo fenol\" in column Principio activo"
+  },  
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "diclofop metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4510",
+      "name": "diclofop-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.800000011920929
+    },
+    "shareNewTopics": false,
+    "description": "Match item diclofop-methyl (http://purl.obolibrary.org/obo/CHEBI_4510) for cells containing \"diclofop metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "alcohol etoxilado",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/30",
+      "name": "alcohol etoxilado",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item alcohol etoxilado (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/30) for cells containing \"alcohol etoxilado\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "fenoxaprop etil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_5008",
+      "name": "Fenoxaprop ethyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.875
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fenoxaprop ethyl (http://purl.obolibrary.org/obo/CHEBI_5008) for cells containing \"fenoxaprop etil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "halosulfuron metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81750",
+      "name": "Halosulfuron-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.8421052694320679
+    },
+    "shareNewTopics": false,
+    "description": "Match item Halosulfuron-methyl (http://purl.obolibrary.org/obo/CHEBI_81750) for cells containing \"halosulfuron metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "iodosulfuron metil sodio",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81741",
+      "name": "Iodosulfuron-methyl-sodium",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.7692307829856873
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iodosulfuron-methyl-sodium (http://purl.obolibrary.org/obo/CHEBI_81741) for cells containing \"iodosulfuron metil sodio\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "haloxyfop-p- metil ester",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_136729",
+      "name": "haloxyfop-P-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.625
+    },
+    "shareNewTopics": false,
+    "description": "Match item haloxyfop-P-methyl (http://purl.obolibrary.org/obo/CHEBI_136729) for cells containing \"haloxyfop-p- metil ester\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "bistriflurón",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/35",
+      "name": "bistrifluron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item bistrifluron (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/35) for cells containing \"bistriflurón\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "alcohol alcoxilado",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/29",
+      "name": "alcohol alcoxilado",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item alcohol alcoxilado (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/29) for cells containing \"alcohol alcoxilado\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "2,4 dp",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_75375",
+      "name": "dichlorprop",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item dichlorprop (http://purl.obolibrary.org/obo/CHEBI_75375) for cells containing \"2,4 dp\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "ester poliglicol de acidos grasos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/42",
+      "name": "ester poliglicol de acidos grasos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ester poliglicol de acidos grasos (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/42) for cells containing \"ester poliglicol de acidos grasos\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "kresoxim metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_2962",
+      "name": "kresoxim-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.800000011920929
+    },
+    "shareNewTopics": false,
+    "description": "Match item kresoxim-methyl (http://purl.obolibrary.org/obo/CHEBI_2962) for cells containing \"kresoxim metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "ester metilico de aceites vegetales",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/41",
+      "name": "ester metilico de aceites vegetales",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ester metilico de aceites vegetales (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/41) for cells containing \"ester metilico de aceites vegetales\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "m.c.p.a.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_50099",
+      "name": "m.c.p.a",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item m.c.p.a (http://purl.obolibrary.org/obo/CHEBI_50099) for cells containing \"m.c.p.a.\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "m.s.m.a.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/0",
+      "name": "MSMA",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item MSMA (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/0) for cells containing \"m.s.m.a.\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "mepiquat cloruro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81772",
+      "name": "mepiquat chloride",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.7647058963775635
+    },
+    "shareNewTopics": false,
+    "description": "Match item mepiquat chloride (http://purl.obolibrary.org/obo/CHEBI_81772) for cells containing \"mepiquat cloruro\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "p.c.n.b.",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_34908",
+      "name": "pentachloronitrobenzene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pentachloronitrobenzene (http://purl.obolibrary.org/obo/CHEBI_34908) for cells containing \"p.c.n.b.\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "propamocarb clorhidrato",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81735",
+      "name": "Propamocarb hydrochloride",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.6000000238418579
+    },
+    "shareNewTopics": false,
+    "description": "Match item Propamocarb hydrochloride (http://purl.obolibrary.org/obo/CHEBI_81735) for cells containing \"propamocarb clorhidrato\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "sulfometurón metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_82042",
+      "name": "Sulfometuron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sulfometuron (http://purl.obolibrary.org/obo/CHEBI_82042) for cells containing \"sulfometurón metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "trifloxisulfuron",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/8",
+      "name": "trifloxysulfuron sodio",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item trifloxysulfuron sodio (http://purl.obolibrary.org/obo/www.lifia.info.unlp.edu.ar/data/lmro/8) for cells containing \"trifloxisulfuron\" in column Principio activo"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/chebi-rdf-ar-extended-and-augmented",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Aptitud to type null"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/agrovoc-rdf-es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Cultivos to type null"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "alfafla",
+                "l": "alfafla"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "alfafla",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299498011805",
+      "name": "Alfalfa",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfalfa (http://aims.fao.org/aos/agrovoc/xl_es_1299498011805) for cells containing \"alfafla\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "algodón (aceite)",
+                "l": "algodón (aceite)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "algodón (aceite)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487624758",
+      "name": "Aceite de algodón",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.11764705181121826
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aceite de algodón (http://aims.fao.org/aos/agrovoc/xl_es_1299487624758) for cells containing \"algodón (aceite)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ananá",
+                "l": "ananá"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "ananá",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299499101742",
+      "name": "Ananás",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ananás (http://aims.fao.org/aos/agrovoc/xl_es_1299499101742) for cells containing \"ananá\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "arboles",
+                "l": "arboles"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "arboles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299493496932",
+      "name": "Árboles",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Árboles (http://aims.fao.org/aos/agrovoc/xl_es_1299493496932) for cells containing \"arboles\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "endivia",
+                "l": "endivia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "endivia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299497195120",
+      "name": "Cichorium endivia",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.4117646813392639
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cichorium endivia (http://aims.fao.org/aos/agrovoc/xl_es_1299497195120) for cells containing \"endivia\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "espárrago",
+                "l": "espárrago"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "espárrago",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487198433",
+      "name": "Espárragos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Espárragos (http://aims.fao.org/aos/agrovoc/xl_es_1299487198433) for cells containing \"espárrago\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "kiwi",
+                "l": "kiwi"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "kiwi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486923095",
+      "name": "Kiwi (fruta)",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3333333134651184
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kiwi (fruta) (http://aims.fao.org/aos/agrovoc/xl_es_1299486923095) for cells containing \"kiwi\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "maíz (aceite)",
+                "l": "maíz (aceite)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "maíz (aceite)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487630865",
+      "name": "Aceite de maíz",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.07142859697341919
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aceite de maíz (http://aims.fao.org/aos/agrovoc/xl_es_1299487630865) for cells containing \"maíz (aceite)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "uva (de mesa)",
+                "l": "uva (de mesa)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "uva (de mesa)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486903719",
+      "name": "Uvas de mesa",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.7692307829856873
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uvas de mesa (http://aims.fao.org/aos/agrovoc/xl_es_1299486903719) for cells containing \"uva (de mesa)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "aceite",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "girasol (aceite)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487630238",
+      "name": "Aceite de girasol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aceite de girasol (http://aims.fao.org/aos/agrovoc/xl_es_1299487630238) for cells containing \"girasol (aceite)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "soja (aceite)",
+                "l": "soja (aceite)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "aceite",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "soja (aceite)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487617788",
+      "name": "Aceite de soja",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Aceite de soja (http://aims.fao.org/aos/agrovoc/xl_es_1299487617788) for cells containing \"soja (aceite)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ciruela (pasa)",
+                "l": "ciruela (pasa)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "ciruela (pasa)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487390324",
+      "name": "Ciruela pasa",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.8571428656578064
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ciruela pasa (http://aims.fao.org/aos/agrovoc/xl_es_1299487390324) for cells containing \"ciruela (pasa)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "crisantemo",
+                "l": "crisantemo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "crisantemo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299493420349",
+      "name": "Crisantemos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Crisantemos (http://aims.fao.org/aos/agrovoc/xl_es_1299493420349) for cells containing \"crisantemo\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "flores de corte",
+                "l": "flores de corte"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "flores de corte",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299518152368",
+      "name": "Producción de flores cortadas",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3103448152542114
+    },
+    "shareNewTopics": false,
+    "description": "Match item Producción de flores cortadas (http://aims.fao.org/aos/agrovoc/xl_es_1299518152368) for cells containing \"flores de corte\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "lechuga",
+                "l": "lechuga"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "lechuga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_025d6ed4",
+      "name": "Lechuga cos",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.6363636255264282
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lechuga cos (http://aims.fao.org/aos/agrovoc/xl_es_025d6ed4) for cells containing \"lechuga\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "papa (lavada)",
+                "l": "papa (lavada)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "papa (lavada)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487176702",
+      "name": "Papa",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.307692289352417
+    },
+    "shareNewTopics": false,
+    "description": "Match item Papa (http://aims.fao.org/aos/agrovoc/xl_es_1299487176702) for cells containing \"papa (lavada)\" in column Cultivos"
+  },
+  
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ajo (consumo)",
+                "l": "ajo (consumo)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "ajo (consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487252770",
+      "name": "Ajo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.23076921701431274
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ajo (http://aims.fao.org/aos/agrovoc/xl_es_1299487252770) for cells containing \"ajo (consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "cebada (grano consumo)",
+                "l": "cebada (grano consumo)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "cebada (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486820434",
+      "name": "Cebada",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.27272725105285645
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cebada (http://aims.fao.org/aos/agrovoc/xl_es_1299486820434) for cells containing \"cebada (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "soja (grano consumo)",
+                "l": "soja (grano consumo)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "soja (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487181227",
+      "name": "Soja",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.19999998807907104
+    },
+    "shareNewTopics": false,
+    "description": "Match item Soja (http://aims.fao.org/aos/agrovoc/xl_es_1299487181227) for cells containing \"soja (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "alfalfa (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299498011805",
+      "name": "Alfalfa",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.30434781312942505
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfalfa (http://aims.fao.org/aos/agrovoc/xl_es_1299498011805) for cells containing \"alfalfa (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "lenteja (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487168284",
+      "name": "Lenteja",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.30434781312942505
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lenteja (http://aims.fao.org/aos/agrovoc/xl_es_1299487168284) for cells containing \"lenteja (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "alpiste (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299500855210",
+      "name": "Alpiste",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.30434781312942505
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alpiste (http://aims.fao.org/aos/agrovoc/xl_es_1299500855210) for cells containing \"alpiste (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "arroz (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486832833",
+      "name": "Arroz",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.238095223903656
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arroz (http://aims.fao.org/aos/agrovoc/xl_es_1299486832833) for cells containing \"arroz (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "avena (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299500410337",
+      "name": "Avena",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.238095223903656
+    },
+    "shareNewTopics": false,
+    "description": "Match item Avena (http://aims.fao.org/aos/agrovoc/xl_es_1299500410337) for cells containing \"avena (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "centeno (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486857065",
+      "name": "Centeno",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.30434781312942505
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centeno (http://aims.fao.org/aos/agrovoc/xl_es_1299486857065) for cells containing \"centeno (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "grano consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "maíz (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486843733",
+      "name": "Maíz",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.19999998807907104
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maíz (http://aims.fao.org/aos/agrovoc/xl_es_1299486843733) for cells containing \"maíz (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "trigo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "trigo (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486836565",
+      "name": "Trigo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.238095223903656
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trigo (http://aims.fao.org/aos/agrovoc/xl_es_1299486836565) for cells containing \"trigo (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "mijo (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486823076",
+      "name": "Mijos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mijos (http://aims.fao.org/aos/agrovoc/xl_es_1299486823076) for cells containing \"mijo (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "sorgo (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486834959",
+      "name": "Sorgos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sorgos (http://aims.fao.org/aos/agrovoc/xl_es_1299486834959) for cells containing \"sorgo (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "arveja (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299498096757",
+      "name": "Arveja",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.27272725105285645
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arveja (http://aims.fao.org/aos/agrovoc/xl_es_1299498096757) for cells containing \"arveja (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "girasol (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299497207090",
+      "name": "Girasol",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.30434781312942505
+    },
+    "shareNewTopics": false,
+    "description": "Match item Girasol (http://aims.fao.org/aos/agrovoc/xl_es_1299497207090) for cells containing \"girasol (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "maíz dulce (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299486853603",
+      "name": "Maíz dulce",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.38461536169052124
+    },
+    "shareNewTopics": false,
+    "description": "Match item Maíz dulce (http://aims.fao.org/aos/agrovoc/xl_es_1299486853603) for cells containing \"maíz dulce (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "poroto (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487102226",
+      "name": "Poroto",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.27272725105285645
+    },
+    "shareNewTopics": false,
+    "description": "Match item Poroto (http://aims.fao.org/aos/agrovoc/xl_es_1299487102226) for cells containing \"poroto (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "algodón (semilla consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487280829",
+      "name": "Semilla de algodón",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Semilla de algodón (http://aims.fao.org/aos/agrovoc/xl_es_1299487280829) for cells containing \"algodón (semilla consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "garbanzo (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487158576",
+      "name": "Garbanzo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3333333134651184
+    },
+    "shareNewTopics": false,
+    "description": "Match item Garbanzo (http://aims.fao.org/aos/agrovoc/xl_es_1299487158576) for cells containing \"garbanzo (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "cebolla (consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487170604",
+      "name": "Cebolla",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.4117646813392639
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cebolla (http://aims.fao.org/aos/agrovoc/xl_es_1299487170604) for cells containing \"cebolla (consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "lino (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487577175",
+      "name": "Lino",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.19999998807907104
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lino (http://aims.fao.org/aos/agrovoc/xl_es_1299487577175) for cells containing \"lino (grano consumo)\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "consumo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "colza (grano consumo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299487294803",
+      "name": "Colza (grano)",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.6190476417541504
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colza (grano) (http://aims.fao.org/aos/agrovoc/xl_es_1299487294803) for cells containing \"colza (grano consumo)\" in column Cultivos"
+  },
+ {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "cítricos en general",
+                "l": "cítricos en general"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "cítricos en general",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299496144385",
+      "name": "Citrus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Citrus (http://aims.fao.org/aos/agrovoc/xl_es_1299496144385) for cells containing \"cítricos en general\" in column Cultivos"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "lim",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "similarValue": "limón",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_es_1299496155280",
+      "name": "Citrus limon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Citrus limon (http://aims.fao.org/aos/agrovoc/xl_es_1299496155280) for cells containing \"limón\" in column Cultivos"
+  }
+]

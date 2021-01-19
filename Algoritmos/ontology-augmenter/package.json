@@ -1,0 +1,21 @@
+{
+  "name": "ontology augmenter",
+  "version": "1.0.0",
+  "description": "Adds new terms to an existing ontology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "synonyms",
+    "content",
+    "extended",
+    "ontology",
+    "owl"
+  ],
+  "author": "Carlos Francisco Ragout",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1"
+  }
+}

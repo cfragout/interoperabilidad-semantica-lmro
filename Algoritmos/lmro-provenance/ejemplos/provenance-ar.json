@@ -1,0 +1,19 @@
+{
+	"namespace":  "http://www.lifia.info.unlp.edu.ar/lmro/data/ar/",
+	"sourceDocument": {
+		"date": "2020-07-02T00:00:00.000Z",
+		"format": "xlsx",
+		"language": "Español",
+		"description": "Informacion respecto a los LMR publicada por SENASA en el mes de Julio 2020",
+		"title": "lmrs_julio_2020",
+		"identifier": "802EF781D909A6B3B501F3242F924070213B8F8DC012502C66B2464C976F598C",
+		"createdBy": {
+			"name": "SENASA",
+			"uri": "https://www.wikidata.org/wiki/Q6972721"
+		}
+	},
+	"publisher": {
+		"name": "UNLP",
+		"uri": "https://www.wikidata.org/wiki/Q784171"
+	}
+}

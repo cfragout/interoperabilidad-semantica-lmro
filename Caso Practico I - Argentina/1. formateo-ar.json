@@ -1,0 +1,4078 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.toLowercase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aceite mineral / aceite mineral blanco",
+                "l": "aceite mineral / aceite mineral blanco"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "aceite mineral / aceite mineral blanco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aceite mineral blanco"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "abamectina/avermectina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "avermectina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "acido giberelico/ giberelina a3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "giberelina a3"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "alfacipermetrina/alfametrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alfacipermetrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cloridazon / pirazon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cloridazon"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "clorpirifos etil/clorpirifos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clorpirifos"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "clorprofam / c.i.p.c"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clorprofam"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cyantraniliprole (cyazypyr)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cyantraniliprole"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cyflutrin / cyflutrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cyflutrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "dalapon / acido 2,2 dicloropropionico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dalapon"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "deltametrina / decametrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deltametrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "diclorprop / 2,4 dp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2,4 dp"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "dimetsulfuron / nicosulfuron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nicosulfuron"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "gamacialotrina / lambdacialotrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lambdacialotrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "glifosato / glifosato acido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "glifosato"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "mercaptotion / malation"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "malation"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "metiocarb / metmercapturon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "metiocarb"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "metolacloro / s- metolacloro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "metolacloro"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "paraquat (dicloruro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paraquat"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "profoxidim /clefoxidim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "profoxidim"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "quizalofop - etil /aciprofen etil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quizalofop - etil"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tebuconazole / fenetrazole"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tebuconazole"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "jython:return value.replace(')','').replace('(','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression jython:return value.replace(')','').replace('(','')"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Aptitud",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "description": "Fill down cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ac"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acaricida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "in"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "insecticida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nematicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trat de suelos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tratamiento de suelos"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tratamiento semillas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tratamiento de semillas"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "hormiquicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hormiguicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "funguicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fungicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "antídoto de herbicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "antidoto de herbicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "zapallo ( calabaza)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "zapallo (calabaza)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": ", heno",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "jython:iParentesis = value.index('(')\ncultivo = value[0:iParentesis]\nreturn value.replace(',', ' ' + cultivo+ ' // ').replace(')', ' ' + cultivo + ')')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression jython:iParentesis = value.index('(')\ncultivo = value[0:iParentesis]\nreturn value.replace(',', ' ' + cultivo+ ' // ').replace(')', ' ' + cultivo + ')')"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje centeno ",
+                "l": " forraje centeno "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje centeno "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "centeno (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje lino ",
+                "l": " forraje lino "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje lino "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lino (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje maíz ",
+                "l": " forraje maíz "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje maíz "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje mijo ",
+                "l": " forraje mijo "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje mijo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mijo (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje sorgo ",
+                "l": " forraje sorgo "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje sorgo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sorgo (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " forraje trigo ",
+                "l": " forraje trigo "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " forraje trigo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo (forraje)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno avena )",
+                "l": " heno avena )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno avena )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "avena (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno cebada )",
+                "l": " heno cebada )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno cebada )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cebada (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno centeno )",
+                "l": " heno centeno )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno centeno )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "centeno (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno lino )",
+                "l": " heno lino )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno lino )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lino (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno maíz )",
+                "l": " heno maíz )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno maíz )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno mijo )",
+                "l": " heno mijo )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno mijo )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mijo (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno sorgo )",
+                "l": " heno sorgo )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno sorgo )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sorgo (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": " heno trigo )",
+                "l": " heno trigo )"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " heno trigo )"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo (heno)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "algodón, poroto, maní y soja",
+                "l": "algodón, poroto, maní y soja"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "algodón, poroto, maní y soja"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "algodón // poroto // maní // soja"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "description": "Fill down cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz c/cascara (grano almacenado)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz con cáscara (grano almacenado)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "arroz con y sin cáscara",
+                "l": "arroz con y sin cáscara"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz con y sin cáscara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz con cáscara // arroz sin cáscara"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz (grano sin cáscara)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz sin cáscara"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "avena (forraje verde/seco)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "avena (forraje) // avena (forraje seco)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "avena (grano avena "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "avena (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cebada (grano cebada "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cebada (grano cebada)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "verde/seco",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace('/', ') // ' + cultivo + '(forraje ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace('/', ') // ' + cultivo + '(forraje ')"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz sin cáscara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz (sin cáscara)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz con cáscara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz (con cáscara)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arroz con cáscara (grano almacenado)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arroz (con cáscara)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ciruela, olivo, cebolla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ciruela // olivo // cebolla"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cítrcos en general"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cítricos en general"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo y rosal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // rosal"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo, clavel, rosal y céspedes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // clavel // rosal // céspedes"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo, clavel, rosal y ornamentales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // clavel // rosal // ornamentales"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo, cyclamen y clavel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // cyclamen // clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo/ clavel / rosal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // clavel // rosal"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemo/ rosal/ clavel y oranmentales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo // rosal // clavel // oranmentales"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "durazno y cítricos en vivero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "durazno // cítricos en vivero"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales (azalea/crisantemo/estrella fed/ rosa china/arbolito japonés)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "azalea // crisantemo // estrella fed // rosa china // arbolito japonés"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "florales y ornamentales ( crisantemo, gladiolo, clavel, rosal)",
+                "l": "florales y ornamentales ( crisantemo, gladiolo, clavel, rosal)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace(', ', ') // ' + cultivo + '(')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace(', ', ') // ' + cultivo + '(')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "florales y ornamentales ( gladiolos y arbustos)",
+                "l": "florales y ornamentales ( gladiolos y arbustos)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales ( gladiolos y arbustos)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales (gladiolos) // florales y ornamentales (arbustos)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales, céspedes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales (céspedes)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "forestales ( pinus y eucaliptus)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "forestales (pinus) // forestales (eucaliptus)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "girasol, soja, maní y maìz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "girasol // soja // maní // maìz"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "gladiolo, clavel, crisantem, rosa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo // clavel // crisantemo // rosa"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "maíz (grano maíz "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz (grano consumo)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "maíz (grano y aceite)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz (grano consumo) // maíz (aceite)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "maiz, girasol, algodón, avena, trigo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz // girasol // algodón // avena // trigo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "mijo (grano mijo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mijo (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "nectarín / pelón"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nectarín // pelón"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ornamentales ( clavel, gladiolo, rosal)",
+                "l": "ornamentales ( clavel, gladiolo, rosal)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace(', ', ') // ' + cultivo + '(')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression jython:i = value.index('(')\ncultivo = value[0:i]\nreturn value.replace(', ', ') // ' + cultivo + '(')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Cultivos",
+          "expression": "value",
+          "columnName": "Cultivos",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ornamentales, gladiolos, tulipanes, iris y narcisos",
+                "l": "ornamentales, gladiolos, tulipanes, iris y narcisos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales, gladiolos, tulipanes, iris y narcisos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ornamentales (gladiolos) // ornamentales (tulipanes) // ornamentales (iris) ornamentales (narcisos)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "rosa, crisantemo y clavel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rosa // crisantemo // clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "rosales y ornamentales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rosales // ornamentales"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "sorgo (grano sorgo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sorgo (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "sorgo, poroto, algodón, girasol, maiz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sorgo // poroto // algodón // girasol // maíz"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trigo - avena"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo // avena"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trigo (grano trigo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trigo, cebada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo // cebada"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trigo, cebada, avena, cebadilla criolla, fetuca y algodón"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "trigo // cebada // avena // cebadilla criolla // fetuca // algodón"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "uva (de mesa y vinificación)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "uva (de mesa) // uva (vinificación)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "forraje verde",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "jython:return value.replace(' verde', '')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression jython:return value.replace(' verde', '')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "rosales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rosal"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "maìz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "maíz"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "algodón, maiz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "algodón // maiz"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Cultivos",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " // ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Aptitud",
+    "description": "Fill down cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "z",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+    {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "*",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "arándano *"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "arándano"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "*",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "membrillo *"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "membrillo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "*",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "pepino dulce *"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pepino dulce"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "*",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "pimiento *"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pimiento"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "*",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tuna *"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tuna"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales ( crisantemo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (clavel)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (gladiolos)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (gladiolo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (gladiolos)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (gladiolo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tung"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tuna"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "pastura de gramíneas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pasturas de gramíneas"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales ( clavel)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (rosal)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales (rosal)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "harinas blanca de trigo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "harina blanca de trigo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lino (grano lino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lino (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  }
+]

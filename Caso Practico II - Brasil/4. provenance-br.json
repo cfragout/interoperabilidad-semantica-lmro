@@ -1,0 +1,19 @@
+{
+	"namespace":  "http://www.lifia.info.unlp.edu.ar/lmro/data/br/",
+	"sourceDocument": {
+		"date": "2020-10-11T00:00:00.000Z",
+		"format": "csv",
+		"language": "Portugués",
+		"description": "Informacionde LMR obtenida de ANVISA en Octubre 2020",
+		"title": "TA_MONOGRAFIA_AGROTOXICO",
+		"identifier": "83208CBB4C39A6273209C5A4DCE7CF5272926817489330139E08EF1D63058B73",
+		"createdBy": {
+			"name": "ANVISA",
+			"uri": "https://www.wikidata.org/wiki/Q295815"
+		}
+	},
+	"publisher": {
+		"name": "UNLP",
+		"uri": "https://www.wikidata.org/wiki/Q784171"
+	}
+}

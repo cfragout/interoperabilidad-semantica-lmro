@@ -1,0 +1,104 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "lmro",
+          "uri": "http://www.lifia.info.unlp.edu.ar/lmro#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.lifia.info.unlp.edu.ar/lmro/data/br/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#activePrinciple",
+              "curie": "lmro:activePrinciple",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Principio activo",
+                "expression": "cell.recon.match.id",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#role",
+              "curie": "lmro:role",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Aptitud",
+                "expression": "cell.recon.match.id",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#appliesTo",
+              "curie": "lmro:appliesTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Cultivos",
+                "expression": "if(cell.recon.match.id != null, cell.recon.match.id, value)",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#comments",
+              "curie": "lmro:comments",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Post Cosecha",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#maximumResidue",
+              "curie": "lmro:maximumResidue",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Residuos (mg /Kg)",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "http://www.lifia.info.unlp.edu.ar/lmro#Record",
+              "curie": "lmro:Record"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://aims.fao.org/aos/agrovoc/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://aims.fao.org/aos/agrovoc"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://aims.fao.org/aos/agrovoc/c_8174"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_36700">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://aims.fao.org/aos/agrovoc/c_7805"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://d-nb.info/gnd/4060370-2"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://lod.nal.usda.gov/nalt/50832"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<closeMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://purl.org/bncf/tid/26289"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ar_1299487137380"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_cs_1299487137396"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_de_1299487137412"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_en_1299487137429"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_fa_1299487137467"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_fr_1299487137489"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_hi_1299487137513"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_hu_1299487137537"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_it_1299487137562"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ja_1299487137591"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ko_1299487137622"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_lo_1299487137655"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_pl_1299487137689"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_pt_1299487137724"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ru_1299487137763"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_sk_1299487137803"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_th_1299487137842"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_zh_1299487137884"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_tr_7805_1321791964967"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_te_7805_1328259671047"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ka_d1c0c204"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_nb_deb9ad36"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_da_dce3bf48"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_sv_03d09726"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_el_18619d9f"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_ga_07fdf8d9"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_uk_adaf323a"/>
+	<prefLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_sr_fb32254a"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<altLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_es_1299487137993"/>
+	<altLabel xmlns="http://www.w3.org/2008/05/skos-xl#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_uk_0e20a673"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4475">
+	<produces xmlns="http://aims.fao.org/aos/agrontology#" rdf:resource="http://aims.fao.org/aos/agrovoc/c_7805"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_4476">
+	<produces xmlns="http://aims.fao.org/aos/agrontology#" rdf:resource="http://aims.fao.org/aos/agrovoc/c_7805"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<isUsedAs xmlns="http://aims.fao.org/aos/agrontology#" rdf:resource="http://aims.fao.org/aos/agrovoc/c_3129"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-21T09:26:39.975+01:00</modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/c_7805">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-03T17:01:11Z</created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447">
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447">
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://aims.fao.org/aos/agrovoc/AgrovocCode">7805</notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447">
+	<literalForm xmlns="http://www.w3.org/2008/05/skos-xl#" xml:lang="es">Tomate</literalForm>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447">
+	<hasRelatedTerm xmlns="http://aims.fao.org/aos/agrontology#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_es_1299487137993"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137993">
+	<hasRelatedTerm xmlns="http://aims.fao.org/aos/agrontology#" rdf:resource="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aims.fao.org/aos/agrovoc/xl_es_1299487137447">
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1981-01-23T00:00:00Z</created>
+</rdf:Description>
+
+
+
+
+</rdf:RDF>

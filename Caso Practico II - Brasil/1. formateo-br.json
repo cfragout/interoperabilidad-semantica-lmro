@@ -1,0 +1,75 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DS_INGREDIENTE_ATIVO",
+    "newColumnName": "Principio activo",
+    "description": "Rename column DS_INGREDIENTE_ATIVO to Principio activo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NO_CULTURA",
+    "newColumnName": "Cultivos",
+    "description": "Rename column NO_CULTURA to Cultivos"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NO_SUBSTANCIA",
+    "description": "Remove column NO_SUBSTANCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TP_SUBSTANCIA",
+    "description": "Remove column TP_SUBSTANCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CO_MONOGRAFIA",
+    "description": "Remove column CO_MONOGRAFIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NU_CAS",
+    "description": "Remove column NU_CAS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ST_AUTORIZADO",
+    "description": "Remove column ST_AUTORIZADO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO_LIMITE",
+    "description": "Remove column TIPO_LIMITE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NO_VALOR_REFERENCIA",
+    "description": "Remove column NO_VALOR_REFERENCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DS_ATO_LEGAL",
+    "description": "Remove column DS_ATO_LEGAL"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DT_INICIO_VIGENCIA",
+    "description": "Remove column DT_INICIO_VIGENCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DT_FIM_VIGENCIA",
+    "description": "Remove column DT_FIM_VIGENCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NO_UNIDADE_MEDIDA",
+    "description": "Remove column NO_UNIDADE_MEDIDA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NU_LMR",
+    "newColumnName": "Residuos (mg /Kg)",
+    "description": "Rename column NU_LMR to Residuos (mg /Kg)"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "lmro-provenance",
+  "version": "1.0.0",
+  "description": "Add provenance terms to the exported lmro dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "synonyms",
+    "content",
+    "extended",
+    "ontology",
+    "owl"
+  ],
+  "author": "Carlos Francisco Ragout",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "xml2js": "^0.4.23"
+  }
+}

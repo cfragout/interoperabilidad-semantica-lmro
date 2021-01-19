@@ -1,0 +1,23 @@
+{
+  "name": "lmro-corrections",
+  "version": "1.0.0",
+  "description": "Corrects the OpenRefine dataset export so that it complies with the LMR-O ontology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "synonyms",
+    "content",
+    "extended",
+    "ontology",
+    "owl",
+    "lmro"
+  ],
+  "author": "Carlos Francisco Ragout",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "xml2js": "^0.4.23"
+  }
+}
