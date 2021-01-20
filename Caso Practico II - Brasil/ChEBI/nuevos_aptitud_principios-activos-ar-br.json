@@ -1,0 +1,2329 @@
+{
+    "namespaces": [
+        "xmlns=\"http://purl.obolibrary.org/obo/chebi.owl#\"",
+        "xmlns:oboInOwl=\"http://www.geneontology.org/formats/oboInOwl#\""
+    ],
+    "concepts": [
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "monosodium methyl arsenate"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "MSMA"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "5-[2-cloro-4-(trifluorometil) fenoxi]-2-nitrobenzoato) de sodio"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "acifluorfen-sodico"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "ácido fenoxiacético clorado"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "fenoxaprop-p-ethyl"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "ácido (R)-2-[4-(4-ciano-2-fluorofenoxi)fenoxi]propiónico"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "cihalofop-butilo"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "ethyl O-[5-(2-chloro-α,α,α-trifluoro-p-tolyloxy)-2-nitrobenzoyl]-DL-lactate"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "Lactofen"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "3-[[5-(difluoromethoxy)-1-methyl-3-(trifluoromethyl)pyrazol-4-yl]methylsulfonyl]-5,5-dimethyl-4H-1,2-oxazole"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "Pyroxasulfone"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "N-(5,7-dimethoxy[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)-2-methoxy-4-(trifluoromethyl)-3-pyridinesulfonamide"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "pyroxsulam"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "thiazopyr"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "oboInOwl",
+                    "name": "hasRelatedSynonym",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "N’-(4,6-dimetoxipirimidin-2-il)-N-[3-(2,2,2-trifluoroetoxi)-2-piridilsulfonil]imidocarbamato"
+                },
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "trifloxysulfuron sodio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "aceite mineral blanco"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "oxicloruro de cobre"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "giberelinas a4 a7"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "bacillus thuringiensis"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "bromopropilato"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "sulfato tetracupico tricalcico"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "bacillus subtilis"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "amonio cuaternario"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "extracto de ajo"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "metam potasio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "nafteno de zinc"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "oxasulfuron"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "sulfato neutro de oxiquinol"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "alfa naftalen acetato de sodio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "cianamida hidrogenada"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "halosulfuron"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "aceite de creosota"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "aceite de soja"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "aceite escencial de ajo"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "acido graso metacloro"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "alcohol alcoxilado"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "alcohol etoxilado"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "alquil fenol etoxilado"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "amina grasa etoxilada"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "aminoetoxivinilglicina"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "beauveria bassiana"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "bistrifluron"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "carbonato basico de cu"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "dialurin ester + poliet. glicol ester"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "dodecadienol"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "dodecenilacetato"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "dodecil benceno sulf trietanolamida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "ester metilico de aceites vegetales"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "ester poliglicol de acidos grasos"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "florpyrauxifen etil"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "folcisteina"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "glandlure"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "heptametiltrisiloxano"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "lecitina de soja"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "lignosulfonato de calcio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "nonil fenol etoxilado"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "octifenol y polietilenglicol"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "oleato de potasio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "oxido de cocoamida propil"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "polioxi ester amino graso"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "hidroxicloruro de trimetilamina"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "polisulfuro de calcio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "polyphase"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "sales cca"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "serricornin"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "tribromo fenato de sodio"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "trichoderma"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "virus de la granulosis de cydia"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "alguicida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "antibiótico"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "antidoto de herbicida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "antiescaldante"
+                }
+            ]
+        },
+                {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "tucuricida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "bactericida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "biológico"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "desbrotador"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "desecante"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "desinfección de suelo"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "fungicida tratamiento de semillas"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "gorgojicida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "herbicida desecante"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "herbicida para barbecho químico y entre surco"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "herbicida pre-emergente"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "hormiguicida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "mata babosas y caracoles"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "molusquicida"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "postsiembra"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "preservador de madera"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "presiembra"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "repelente"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "tratamiento de semillas"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "tratamiento de suelos"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "mezcla de esteres y jabones provenientes de ácidos grasos de aceites vegetales trans-esterificados con glicerina.contiene sucroglicéridos"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "mezcla de esteres de alquil fenol y polietilenglicol"
+                }
+            ]
+        },
+        {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "mezcla de esteres de acidos grasos de aceites vegetales"
+                }
+            ]
+        }
+    ]
+}
