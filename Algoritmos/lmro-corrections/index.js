@@ -23,7 +23,7 @@ const datasetUnit = options.unit || 'http://purl.obolibrary.org/obo/UO_0000308';
 
 const _RECORD = 'Record';
 const _ANY = 'Any';
-const _EXCEMPT = 'Excempt';
+const _EXEMPT = 'Exempt';
 const _RESIDUE_VALUE = 'ResidueValue';
 const _CROP = 'Crop';
 
@@ -64,7 +64,7 @@ Promise.all(promises).then(result => {
                 }
 
                 if (isNaN(term['lmro:maximumResidue'])) {
-                    term['lmro:maximumResidue'] = getExcemptConcept();
+                    term['lmro:maximumResidue'] = getExemptConcept();
                 } else {
                     newConcepts.push(buildResidueValue(term));
                 }
@@ -232,9 +232,9 @@ function getAnyRoleConcept() {
     return {'$': { 'rdf:resource': getWithLMRONamespace(_ANY) }}
 }
 
-// return lmro#Excempt
-function getExcemptConcept() {
-    return {'$': { 'rdf:resource': getWithLMRONamespace(_EXCEMPT) }}
+// return lmro#Exempt
+function getExemptConcept() {
+    return {'$': { 'rdf:resource': getWithLMRONamespace(_EXEMPT) }}
 }
 
 function readFromFile(file, format = '') {

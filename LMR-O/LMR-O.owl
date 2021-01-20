@@ -1,267 +1,351 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.lifia.info.unlp.edu.ar/lmro#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.lifia.info.unlp.edu.ar/lmro"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
-     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#"
-     xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#2"
-     xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
-     xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
-     xmlns:schema="http://schema.org/"
-     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://www.lifia.info.unlp.edu.ar/lmro">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/agro/releases/2020-04-03/agro.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi/191/chebi.owl"/>
-        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
-        <schema:contributor>Alejandro Fernandez
+     ontologyIRI="http://www.lifia.info.unlp.edu.ar/lmro">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/uo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/agro/releases/2020-04-03/agro.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/chebi/191/chebi.owl</Import>
+    <Import>http://www.w3.org/ns/prov-o-20130430</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/contributor"/>
+        <Literal>Alejandro Fernandez
 Diego Torres
-Carlos Pintor</schema:contributor>
-        <schema:creator>Carlos Francisco Ragout</schema:creator>
-        <schema:dateCreated>2020-12-13</schema:dateCreated>
-        <schema:description xml:lang="es">LMR-O es una ontología que busca modelar el dominion de la publicación de los límites máximos de residuos (o LMR) de fitosanitarios en alimentos.</schema:description>
-        <schema:name>LMR-O</schema:name>
-        <schema:schemaVersion>1.0.0</schema:schemaVersion>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://schema.org/contributor -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/contributor"/>
-    
-
-
-    <!-- http://schema.org/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/creator"/>
-    
-
-
-    <!-- http://schema.org/dateCreated -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/dateCreated"/>
-    
-
-
-    <!-- http://schema.org/description -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/description"/>
-    
-
-
-    <!-- http://schema.org/license -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/license"/>
-    
-
-
-    <!-- http://schema.org/name -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/name"/>
-    
-
-
-    <!-- http://schema.org/sameAs -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/sameAs"/>
-    
-
-
-    <!-- http://schema.org/schemaVersion -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/schemaVersion"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#activePrinciple -->
-
-    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#activePrinciple">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:comment xml:lang="es">Principio activo</rdfs:comment>
-        <rdfs:label>activePrinciple</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#appliesTo -->
-
-    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#appliesTo">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
-        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Any"/>
-        <rdfs:comment xml:lang="es">Cultivo al que aplica el resgistro</rdfs:comment>
-        <rdfs:label>appliesTo</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#hasUnit -->
-
-    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#hasUnit">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
-        <rdfs:comment xml:lang="es">Unidad en que se mide el LMR</rdfs:comment>
-        <rdfs:label>hasUnit</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#maximumResidue -->
-
-    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#maximumResidue">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
-        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Exempt"/>
-        <rdfs:range rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
-        <rdfs:comment xml:lang="es">Residuo máximo para un fitosanitario</rdfs:comment>
-        <rdfs:label>maximumResidue</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#role -->
-
-    <owl:ObjectProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#role">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-        <rdfs:comment xml:lang="es">Rol que cumple un fitosanitario.</rdfs:comment>
-        <rdfs:label>role</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#comments -->
-
-    <owl:DatatypeProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#comments">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#Record"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comentarios, información adicional</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comments</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#hasValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#hasValue">
-        <rdfs:domain rdf:resource="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:comment xml:lang="es">Valor de un LMR</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasValue</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Any -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Any">
-        <rdfs:comment xml:lang="es">Cualquier valor. Un LMR que aplica a cualquier valor aplica a cualquier cultivo del dataset.</rdfs:comment>
-        <rdfs:label>Any</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Crop -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Crop">
-        <schema:sameAs rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000325"/>
-        <rdfs:comment xml:lang="es">Un cultivo</rdfs:comment>
-        <rdfs:label>Crop</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Exempt -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Exempt">
-        <rdfs:comment xml:lang="es">No sujeto a restricciones. Que un fitosanitario posea LMR exento significa que no hay una restriccion en cuanto a la cantidad que puede utilizarse de dicho sanitario</rdfs:comment>
-        <rdfs:label>Exempt</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#LmrPublicationActivity -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#LmrPublicationActivity">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <rdfs:comment xml:lang="es">Actividad de publicación la cual genera los registros de LMR</rdfs:comment>
-        <rdfs:label>LmrPublicationActivity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#Record -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#Record">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <rdfs:comment xml:lang="es">Registro de LMR (límite máximo de residuo).</rdfs:comment>
-        <rdfs:label>Record</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue -->
-
-    <owl:Class rdf:about="http://www.lifia.info.unlp.edu.ar/lmro#ResidueValue">
-        <rdfs:comment xml:lang="es">El valor del LMR</rdfs:comment>
-        <rdfs:label>ResidueValue</rdfs:label>
-    </owl:Class>
-</rdf:RDF>
+Carlos Pintor</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/creator"/>
+        <Literal>Carlos Francisco Ragout</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/dateCreated"/>
+        <Literal>2020-12-13</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/description"/>
+        <Literal xml:lang="es">LMR-O es una ontología que busca modelar el dominio de la publicación de los límites máximos de residuos (o LMR) de fitosanitarios en alimentos.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/name"/>
+        <Literal>LMR-O</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://schema.org/schemaVersion"/>
+        <Literal>1.0.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Any"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exempt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicationActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResidueValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourceDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#activePrinciple"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appliesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maximumResidue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comments"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/dateCreated"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/schemaVersion"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Publication"/>
+        <Class IRI="http://www.w3.org/ns/prov#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicationActivity"/>
+        <Class IRI="http://www.w3.org/ns/prov#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Record"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourceDocument"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#activePrinciple"/>
+        <Class IRI="#Record"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#Record"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#ResidueValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maximumResidue"/>
+        <Class IRI="#Record"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#role"/>
+        <Class IRI="#Record"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#activePrinciple"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#Any"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UO_0000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximumResidue"/>
+        <Class IRI="#Exempt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maximumResidue"/>
+        <Class IRI="#ResidueValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comments"/>
+        <Class IRI="#Record"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#ResidueValue"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#comments"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Any</IRI>
+        <Literal xml:lang="es">Cualquier valor. Un LMR que aplica a cualquier valor aplica a cualquier cultivo del dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Any</IRI>
+        <Literal>Any</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/sameAs"/>
+        <IRI>#Crop</IRI>
+        <IRI>http://purl.obolibrary.org/obo/AGRO_00000325</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crop</IRI>
+        <Literal xml:lang="es">Un cultivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Crop</IRI>
+        <Literal>Crop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exempt</IRI>
+        <Literal xml:lang="es">No sujeto a restricciones. Que un fitosanitario posea LMR exento significa que no hay una restricción en cuanto a la cantidad de residuo que puede dejar el dicha sustancia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exempt</IRI>
+        <Literal>Exempt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Publication</IRI>
+        <Literal xml:lang="es">La publicación que se genera con la PublicationActivity. Contiene los registros LMR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Publication</IRI>
+        <Literal>Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PublicationActivity</IRI>
+        <Literal xml:lang="es">Actividad que genera la publicación con los registros de LMR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicationActivity</IRI>
+        <Literal>PublicationActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Record</IRI>
+        <Literal xml:lang="es">Registro LMR (límite máximo de residuo)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Record</IRI>
+        <Literal>Record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ResidueValue</IRI>
+        <Literal xml:lang="es">El valor  y la unidad que tiene el registro LMR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ResidueValue</IRI>
+        <Literal>ResidueValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SourceDocument</IRI>
+        <Literal xml:lang="es">Documento fuente utilizado para crear el dataset semántico. Se utiliza como input en la actividad de publicación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SourceDocument</IRI>
+        <Literal>SourceDocument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#activePrinciple</IRI>
+        <Literal xml:lang="es">Los principios activos son las sustancias que se utilizan como bactericidas, fungicidas, insecticidas, herbicidas, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#activePrinciple</IRI>
+        <Literal>activePrinciple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#appliesTo</IRI>
+        <Literal xml:lang="es">Cultivo sobre el que se utiliza el principo activo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#appliesTo</IRI>
+        <Literal>appliesTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#comments</IRI>
+        <Literal>Comentarios, información adicional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#comments</IRI>
+        <Literal>comments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUnit</IRI>
+        <Literal xml:lang="es">Unidad en que se mide el LMR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasUnit</IRI>
+        <Literal>hasUnit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasValue</IRI>
+        <Literal xml:lang="es">Valor que posee un registro LMR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasValue</IRI>
+        <Literal>hasValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#maximumResidue</IRI>
+        <Literal xml:lang="es">Residuo máximo permitido para un fitosanitario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#maximumResidue</IRI>
+        <Literal>maximumResidue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#role</IRI>
+        <Literal xml:lang="es">Rol que cumple un fitosanitario. Ejemplos de roles son fungicida, herbicida, molusquicida, insecticida, acaricida, regulador de crecimiento, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#role</IRI>
+        <Literal>role</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
 
 
